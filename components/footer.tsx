@@ -1,4 +1,4 @@
-import { Github, Twitter, Globe } from "lucide-react"
+import { Github, X, Globe } from "lucide-react"
 
 export function Footer() {
   return (
@@ -14,10 +14,10 @@ export function Footer() {
             <a href="#" className="text-slate-600 hover:text-slate-900 transition-colors" aria-label="GitHub">
               <Github className="h-5 w-5" />
             </a>
-            <a href="#" className="text-slate-600 hover:text-slate-900 transition-colors" aria-label="Twitter">
-              <Twitter className="h-5 w-5" />
+            <a href="https://x.com/graceeluck" className="text-slate-600 hover:text-slate-900 transition-colors" aria-label="X (Twitter)" target="_blank" rel="noopener noreferrer">
+              <X className="h-5 w-5" />
             </a>
-            <a href="#" className="text-slate-600 hover:text-slate-900 transition-colors" aria-label="Website">
+            <a href="https://www.boardbreeze.io" className="text-slate-600 hover:text-slate-900 transition-colors" aria-label="Website" target="_blank" rel="noopener noreferrer">
               <Globe className="h-5 w-5" />
             </a>
           </div>
